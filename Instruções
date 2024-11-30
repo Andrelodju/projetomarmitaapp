@@ -1,0 +1,12 @@
+1ºInstale as dependências 
+npm install
+npm install react-native-paper
+expo install expo-sqlite
+2ºEstrutura do Projeto
+components/
+CadastroProduto.js: Componente para cadastrar novos produtos.
+ListaClientes.js: Componente para listar clientes que realizaram pedidos.
+NumeroPedidos.js: Componente para visualizar o número de pedidos e identificar compradores constantes.
+database/
+db.js: Configuração do banco de dados SQLite.
+App.js: Componente principal que integra todos os componentes.
